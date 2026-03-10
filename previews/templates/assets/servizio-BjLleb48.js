@@ -29,7 +29,9 @@ import"./main-CFwxNh4F.js";function o(e){return new DOMParser().parseFromString(
           <strong data-tpl="denominazione"></strong>
           <span data-tpl="citta"></span>
         </div>
-        <p class="footer-tagline">Idea e progetto di <a href="https://designers.italia.it">Designers Italia</a></p>
+        <p class="footer-tagline">
+          Idea e progetto di <a href="https://designers.italia.it">Designers Italia</a>
+        </p>
       </div>
       <nav aria-label="Footer">
         <ul>
