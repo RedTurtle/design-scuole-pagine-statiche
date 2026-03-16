@@ -1,6 +1,6 @@
 import"./elements-BvYYOFSp.js";import{f as e,r as a,a as r}from"./templates-_zCjRqNr.js";const s=`<template>
   <header class="site-header">
-    <div class="container header-top" header>
+    <div class="container-header-top" header>
       <a href="../index.html" class="school-logo" aria-label="Torna alla home">
         <div class="school-name">
           <span data-tpl="nome"></span>
