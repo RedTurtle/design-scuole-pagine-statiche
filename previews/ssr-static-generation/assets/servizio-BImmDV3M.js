@@ -1,4 +1,4 @@
-import"./elements-B_IewW6q.js";import{f as e,s as r,r as a,a as s}from"./service-card-CKFn7AJC.js";const l=`<template>
+import"./elements-DaIs5-hU.js";import{f as e,s as r,r as a,a as s}from"./service-card-DTyukxBK.js";const l=`<template>
   <header class="site-header">
     <div class="container-header-top" header>
       <a href="../index.html" class="school-logo" aria-label="Torna alla home">
