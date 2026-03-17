@@ -1,4 +1,4 @@
-function i(a){return new DOMParser().parseFromString(a,"text/html").querySelector("template")}function o(a,r={}){const e=a.content.cloneNode(!0);for(const t of e.querySelectorAll("[data-tpl]")){const n=r[t.dataset.tpl];n!==void 0&&(t.textContent=n)}for(const t of e.querySelectorAll("[data-tpl-href]")){const n=r[t.dataset.tplHref];n!==void 0&&t.setAttribute("href",n)}return e}function l(a,r){const e=document.createDocumentFragment();for(const t of r)e.append(o(a,t));return e}const s=`<template>
+function m(t){return new DOMParser().parseFromString(t,"text/html").querySelector("template")}function d(t,n={}){const e=t.content.cloneNode(!0),r=document.createTreeWalker(e,NodeFilter.SHOW_ELEMENT);let a;for(;a=r.nextNode();){const s=a.attributes;for(let i=0;i<s.length;i++){const{name:o,value:c}=s[i];if(!o.startsWith("data-tpl"))continue;const l=n[c];l!==void 0&&(o==="data-tpl"?a.textContent=l:a.setAttribute(o.slice(9),l))}}return e}function u(t,n){const e=document.createDocumentFragment();for(const r of n)e.append(d(t,r));return e}const p=`<template>
   <it-card variant="inline-mini">
     <a slot="title" href="#" data-tpl="titolo"> </a>
     <p slot="description" data-tlp="descrizione"></p>
@@ -17,4 +17,4 @@ function i(a){return new DOMParser().parseFromString(a,"text/html").querySelecto
     </figure>
   </it-card>
 </template>
-`;export{l as a,i as f,o as r,s};
+`;export{u as a,m as f,d as r,p as s};

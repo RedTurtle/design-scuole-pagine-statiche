@@ -1,4 +1,4 @@
-import"./elements-BvYYOFSp.js";import{f as e,r as a,a as r,s as h}from"./service-card-DTyukxBK.js";const g=`<template>
+import"./elements-BvYYOFSp.js";import{f as e,r as a,a as r,s as h}from"./service-card-CUg_3cIW.js";const g=`<template>
   <it-section class="service-section">
     <div class="container">
       <h2 class="service-section__title" data-tpl="titolo"></h2>
